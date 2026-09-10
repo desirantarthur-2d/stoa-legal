@@ -1,6 +1,6 @@
 # Politique de confidentialité — Stoa
 
-**Dernière mise à jour : 18 juillet 2026**
+**Dernière mise à jour : 10 septembre 2026**
 
 Cette politique de confidentialité décrit comment l'application Stoa (« nous », « notre app ») collecte, utilise et protège vos données personnelles. Elle s'applique à tous les utilisateurs de l'application, conformément au Règlement Général sur la Protection des Données (RGPD).
 
@@ -19,7 +19,7 @@ Pour toute question relative à cette politique ou à vos données personnelles,
 ### 2.1 Données de compte
 - Adresse email
 - Mot de passe (chiffré, jamais stocké en clair — géré par notre prestataire d'authentification Supabase)
-- Identifiant unique (handle) que vous choisissez, visible par les autres utilisateurs
+- Identifiant unique (handle) que vous choisissez, visible par les autres utilisateurs, modifiable avec un délai minimum entre deux changements
 
 ### 2.2 Données de profil
 - Prénom
@@ -31,12 +31,13 @@ Ces informations servent uniquement à personnaliser les analyses et le contenu 
 
 ### 2.3 Données de progression
 - Points d'expérience (XP), niveau, séries de jours consécutifs (streak)
-- Historique des citations consultées (pour les utilisateurs Premium)
+- Historique des citations consultées et des analyses associées (pour les utilisateurs Premium, dans la section « Bilan »)
 - Statistiques d'utilisation quotidienne
 
 ### 2.4 Données sociales (fonctionnalité Cercle)
 - Liste de vos contacts/amis dans l'application
 - Handle et prénom visibles par vos amis
+- Statut d'abonnement Premium visible par vos amis (sous forme d'un badge)
 - Historique des encouragements envoyés/reçus
 
 ### 2.5 Données d'abonnement
@@ -58,6 +59,7 @@ Nous utilisons vos données pour :
 - Afficher votre progression et vos statistiques
 - Permettre les fonctionnalités sociales (Cercle d'amis)
 - Gérer votre abonnement Premium
+- Vous envoyer des emails liés à votre compte (confirmation d'inscription, réinitialisation de mot de passe)
 - Améliorer l'application et corriger des problèmes techniques
 
 Nous **ne vendons jamais** vos données personnelles à des tiers.
@@ -71,8 +73,8 @@ Pour faire fonctionner l'application, certaines données transitent par des pres
 | Prestataire | Rôle | Données concernées |
 |---|---|---|
 | **Supabase** | Hébergement de la base de données et authentification | Toutes les données de compte et de profil |
-| **OpenAI** | Génération de texte d'analyse et voix (utilisateurs gratuits) | Profil anonymisé, texte de citation |
-| **ElevenLabs** | Génération de voix premium | Texte d'analyse (utilisateurs Premium) |
+| **OpenAI** | Génération de texte d'analyse et de la voix du mentor (tous les utilisateurs) | Profil anonymisé, texte de citation |
+| **Resend** | Envoi des emails transactionnels (confirmation, réinitialisation de mot de passe) | Adresse email |
 | **RevenueCat** | Gestion des abonnements | Statut d'abonnement, identifiant utilisateur |
 | **Apple (App Store)** | Traitement des paiements | Informations de paiement (nous n'y avons jamais accès) |
 | **Vercel** | Hébergement du serveur backend | Données transitant par nos API |
@@ -84,8 +86,8 @@ Ces prestataires n'utilisent vos données que pour fournir leur service techniqu
 ## 5. Conservation des données
 
 - **Données de compte et profil** : conservées tant que votre compte est actif
-- **Historique des citations** : conservé 60 jours glissants
-- **Données après suppression de compte** : supprimées définitivement sous [X] jours (voir section 7)
+- **Historique des citations et analyses** : conservé 60 jours glissants
+- **Données après suppression de compte** : supprimées immédiatement et intégralement (voir section 7)
 
 ---
 
@@ -98,7 +100,7 @@ Conformément au RGPD, vous disposez des droits suivants :
 - **Droit à la portabilité** : recevoir vos données dans un format structuré
 - **Droit d'opposition** : vous opposer à certains traitements
 
-Pour exercer ces droits, contactez-nous à **stoa.arthur@gmail.com**. Vous pouvez également supprimer votre compte directement depuis l'application (Profil → Réinitialiser profil).
+Pour exercer ces droits, contactez-nous à **stoa.arthur@gmail.com**. Vous pouvez également supprimer votre compte directement et immédiatement depuis l'application (voir section 7).
 
 Vous avez également le droit d'introduire une réclamation auprès de l'**Autorité de protection des données belge** (APD) : https://www.autoriteprotectiondonnees.be
 
@@ -106,13 +108,17 @@ Vous avez également le droit d'introduire une réclamation auprès de l'**Autor
 
 ## 7. Suppression de votre compte
 
-Vous pouvez supprimer votre compte et toutes vos données associées à tout moment depuis l'application (Profil → Réinitialiser profil). Cette action est irréversible et supprime : votre profil, votre progression, votre historique, et vos relations d'amitié.
+Vous pouvez supprimer définitivement votre compte à tout moment, directement depuis l'application (Profil → Supprimer mon compte). Cette action :
+
+- Supprime immédiatement et intégralement votre compte d'authentification — vous ne pourrez plus vous reconnecter avec cet email
+- Supprime toutes vos données associées : profil, progression, historique de citations, données sociales, statut d'abonnement
+- Est **irréversible** — aucune restauration possible après confirmation
 
 ---
 
 ## 8. Sécurité
 
-Nous mettons en œuvre des mesures techniques raisonnables pour protéger vos données (chiffrement des mots de passe, connexions sécurisées HTTPS, contrôle d'accès strict à la base de données). Cependant, aucune méthode de transmission ou de stockage n'est totalement sécurisée à 100%.
+Nous mettons en œuvre des mesures techniques raisonnables pour protéger vos données (chiffrement des mots de passe, connexions sécurisées HTTPS, contrôle d'accès strict à la base de données, vérification d'identité via jeton d'authentification pour toute action sensible). Cependant, aucune méthode de transmission ou de stockage n'est totalement sécurisée à 100%.
 
 ---
 

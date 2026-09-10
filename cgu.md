@@ -1,6 +1,6 @@
 # Conditions Générales d'Utilisation — Stoa
 
-**Dernière mise à jour : 18 juillet 2026**
+**Dernière mise à jour : 10 septembre 2026**
 
 Bienvenue sur Stoa. En créant un compte et en utilisant l'application, vous acceptez les présentes Conditions Générales d'Utilisation (« CGU »). Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser l'application.
 
@@ -39,7 +39,7 @@ Vous êtes responsable de :
 
 ## 4. Contenu généré par intelligence artificielle
 
-Les analyses, explications et messages du mentor vocal sont générés par des systèmes d'intelligence artificielle (notamment via des services tiers tels qu'OpenAI et ElevenLabs) à partir des citations philosophiques et des informations que vous renseignez dans votre profil.
+Les analyses, explications et messages du mentor vocal sont générés par des systèmes d'intelligence artificielle (notamment via notre partenaire technique OpenAI) à partir des citations philosophiques et des informations que vous renseignez dans votre profil.
 
 Ce contenu :
 - Est généré automatiquement et peut occasionnellement contenir des imprécisions
@@ -53,7 +53,7 @@ Les citations philosophiques elles-mêmes sont vérifiées et attribuées avec l
 ## 5. Abonnement Premium
 
 ### 5.1 Fonctionnalités
-L'abonnement Premium débloque des fonctionnalités supplémentaires (écoutes illimitées, coaching personnalisé, analyses profondes, historique et bilan de progression, accès à l'ensemble de la banque de citations, apparence exclusive du mentor).
+L'abonnement Premium débloque des fonctionnalités supplémentaires (écoutes illimitées, coaching personnalisé, analyses profondes, historique et bilan de progression, accès à l'ensemble de la banque de citations, badge visible par vos amis, apparence exclusive du mentor).
 
 ### 5.2 Facturation
 Les abonnements sont facturés via l'App Store d'Apple, selon les tarifs affichés dans l'application au moment de l'achat. Le renouvellement est automatique sauf annulation de votre part au moins 24 heures avant la date de renouvellement.
@@ -71,6 +71,7 @@ Nous nous réservons le droit de modifier les tarifs de l'abonnement. Toute modi
 En utilisant la fonctionnalité Cercle, vous acceptez que :
 - Votre prénom et votre identifiant (handle) soient visibles par les utilisateurs que vous ajoutez ou qui vous ajoutent
 - Vos statistiques de progression (niveau, streak, XP) soient visibles par vos amis dans l'application
+- Votre statut d'abonnement Premium soit visible par vos amis sous forme d'un badge
 - Vous vous engagez à un usage respectueux de cette fonctionnalité (pas de harcèlement, propos injurieux ou comportement abusif envers d'autres utilisateurs)
 
 Nous nous réservons le droit de suspendre ou supprimer tout compte utilisé de façon abusive envers d'autres utilisateurs.
@@ -105,9 +106,11 @@ Ces limitations ne s'appliquent pas en cas de faute grave ou intentionnelle, ni 
 
 ---
 
-## 10. Suspension et résiliation
+## 10. Suspension et suppression de compte
 
-Nous nous réservons le droit de suspendre ou de résilier votre accès à l'application en cas de violation des présentes CGU. Vous pouvez à tout moment supprimer votre compte depuis l'application (Profil → Réinitialiser profil).
+Nous nous réservons le droit de suspendre ou de résilier votre accès à l'application en cas de violation des présentes CGU.
+
+Vous pouvez, de votre côté, supprimer définitivement votre compte à tout moment, directement depuis l'application (Profil → Supprimer mon compte). Cette suppression est immédiate, complète et irréversible : votre compte d'authentification et toutes vos données associées sont effacés sans possibilité de restauration.
 
 ---
 
